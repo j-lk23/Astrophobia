@@ -31,13 +31,16 @@ while True:
         sys.exit()
     else:
         print("Please choose a valid option. (new) (continue) (quit)\n")
+
 # New game
-print("space_epilogue_part1\n")
-time.sleep(10)
-print("space_epilogue_part2\n")
-time.sleep(10)
-print("space_epilogue_part3\n")
-time.sleep(10)
+if title_action == "new":
+    print("space_epilogue_part1\n")
+    time.sleep(10)
+    print("space_epilogue_part2\n")
+    time.sleep(10)
+    print("space_epilogue_part3\n")
+    time.sleep(10)
+    print("And that's where it ends! (for now...)\n")
 
 # playerrace = input("Race?\n\n")
 
@@ -46,4 +49,5 @@ time.sleep(10)
 # playername = input("Alias?\n\n")
 
 # Continue
-
+if title_action == "continue":
+    print("Soooooooooooo... this doesn't actually exist yet. *boowomp-womp-womp-wowowowowomp*\n")
