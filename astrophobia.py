@@ -55,13 +55,21 @@ while True:
 
 # New game
 if title_action == "new":
-    print("space_epilogue_part1")
-    time.sleep(10)
-    print("space_epilogue_part2")
-    time.sleep(10)
-    print("space_epilogue_part3")
-    time.sleep(10)
-    print("And that's where it ends! (for now...)")
+    print("\"Certain collision, capable of causing global climatic catastrophe that may threaten the future of civilization as we know it.\"")
+    time.sleep(1)
+    print("In the early years of the 21st century, mankind learned that even something as pure as the heavens could harbor certain doom. In December of 2004, Asteroid 99942 Apophis was discovered – an aimlessly wandering leviathan of stone, destined to cross our path. With each new calculation, the outcome grew more dire – an impact which once seemed improbable began to take the shape of inevitability. World-renowned strategists and brilliant mathematicians did nothing but watch in grim silence as the numbers converged into a single, and inevitable outcome: global climatic catastrophe.")
+    time.sleep(3)
+    print("For nearly 25 relentless years, the brightest minds on the planet raced against time, producing life-changing technological advancements at an unprecedented pace. As the threat of global annihilation grew, hope became as scarce as a clear sky in the fallout of despair. The forecast of devastation was clear – the collision would not only shatter the world we once knew, but guide us to abandon our crumbling cradle of a planet. When all options to save Earth had been exhausted, humanity's salvation became a desperate diaspora into the stars.")
+    time.sleep(3)
+    print("Engineers worked around the clock. Not in a futile bid to save a doomed planet, but to forge humanity’s final exit ticket. The brightest minds all over the world intertwined, culminating into a radical plan. By 2029, a select five-hundred souls – the minimum viable population – were to be launched into the cosmos, carrying with them the last ember of our civilization, destined to seed the stars with the future of mankind.")
+    time.sleep(3)
+    print("Thus,")
+    time.sleep(1)
+    print("in the shadow of the impending apocalypse,")
+    time.sleep(1)
+    print("the greatest exodus in human history was born.")
+    time.sleep(1)
+    print("That's all, folks. (for now...)")
 
 # Continue
 if title_action == "continue":
